@@ -1,0 +1,48 @@
+.container {
+    padding: 50px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 60%;
+}
+form {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+form input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+button {
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-bottom-width: 70%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+}
