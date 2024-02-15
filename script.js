@@ -8,7 +8,7 @@ formSubmit.addEventListener("submit", (e) => {
     li.textContent = inputum.value;
 
     let deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "Delete";
+    deleteBtn.innerHTML = `<i class="fa-solid fa-trash-can"></i>`;
 
     deleteBtn.addEventListener("click", () => {
         ul.removeChild(li)
